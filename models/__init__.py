@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 '''Initializes the package'''
-from models.engine import file_storage
+from .engine.file_storage import FileStorage
 
 
 storage = file_storage.FileStorage()
