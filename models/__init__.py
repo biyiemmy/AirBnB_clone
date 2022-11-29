@@ -1,7 +1,11 @@
-i#!/usr/bin/python3
-'''Initializes the package'''
+#!/usr/bin/python3
+
+"""
+Initializes Module Global Variables (Singleton)
+"""
+
 from .engine.file_storage import FileStorage
 
 
-storage = file_storage.FileStorage()
+storage = FileStorage()
 storage.reload()
